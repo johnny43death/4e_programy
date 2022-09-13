@@ -1,0 +1,8 @@
+C:\Users\uczen\source\repos\Kajetan Rosik\bank\bin\Debug\bank.exe.config
+C:\Users\uczen\source\repos\Kajetan Rosik\bank\bin\Debug\bank.exe
+C:\Users\uczen\source\repos\Kajetan Rosik\bank\bin\Debug\bank.pdb
+C:\Users\uczen\source\repos\Kajetan Rosik\bank\obj\Debug\bank.csproj.AssemblyReference.cache
+C:\Users\uczen\source\repos\Kajetan Rosik\bank\obj\Debug\bank.csproj.SuggestedBindingRedirects.cache
+C:\Users\uczen\source\repos\Kajetan Rosik\bank\obj\Debug\bank.csproj.CoreCompileInputs.cache
+C:\Users\uczen\source\repos\Kajetan Rosik\bank\obj\Debug\bank.exe
+C:\Users\uczen\source\repos\Kajetan Rosik\bank\obj\Debug\bank.pdb
