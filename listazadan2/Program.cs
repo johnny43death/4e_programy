@@ -8,11 +8,27 @@ namespace listazadan
 {
     internal class Program
     {
+        CurrentTasks _currtasks = new CurrentTasks();
+
+        public void PrintAllTasks()
+        {
+            foreach (Task task in _currtasks)
+            {
+                if (!task.IsFinished)
+                {
+                    task.Print();
+                }
+                else
+                {
+
+                }
+            }
+        }
         private void PrintMainMenu()
         {
             Console.WriteLine("LISTA ZADAŃ");
             Console.WriteLine("===========");
-            CurrentTasks.PrintAllTasks();
+            PrintAllTasks();
             Console.WriteLine();
             Console.WriteLine("===========");
             Console.WriteLine("Wybierz akcję:");
@@ -20,9 +36,10 @@ namespace listazadan
             Console.WriteLine("B - dodaj zadanie");
             Console.WriteLine("C - zakończ program");
         }
+
         static void Main(string[] args)
         {
-            CurrentTasks currtasks = new CurrentTasks();
+            
         }
     }
 }

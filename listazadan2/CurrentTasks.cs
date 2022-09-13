@@ -43,16 +43,5 @@ namespace listazadan
         {
             return _currtasks.SingleOrDefault(x => x.ID == int.Parse(taskNo));
         }
-
-        public void PrintAllTasks()
-        {
-            foreach (Task task in _currtasks)
-            {
-                if (!task.IsFinished)
-                {
-                    task.Print();
-                }
-            }
-        }
     }
 }
