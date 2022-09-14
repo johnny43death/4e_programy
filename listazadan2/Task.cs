@@ -24,7 +24,7 @@ namespace listazadan
         public void Print()
         {
             Console.WriteLine("{0}  |  {1}", ID, Name);
-            Console.WriteLine("    {2}", Description);
+            Console.WriteLine("    {0}", Description);
         }
     }
 }

@@ -43,11 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CurrentTasks.cs" />
-    <Compile Include="FinishedTasks.cs" />
+    <Compile Include="TaskManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SelectedTask.cs" />
     <Compile Include="Task.cs" />
   </ItemGroup>
   <ItemGroup>

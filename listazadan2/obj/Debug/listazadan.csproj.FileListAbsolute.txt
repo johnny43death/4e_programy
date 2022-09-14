@@ -1,0 +1,8 @@
+C:\Users\rosikkaj\source\repos\4e_programy\listazadan2\bin\Debug\listazadan2.exe.config
+C:\Users\rosikkaj\source\repos\4e_programy\listazadan2\bin\Debug\listazadan2.exe
+C:\Users\rosikkaj\source\repos\4e_programy\listazadan2\bin\Debug\listazadan2.pdb
+C:\Users\rosikkaj\source\repos\4e_programy\listazadan2\obj\Debug\listazadan.csproj.AssemblyReference.cache
+C:\Users\rosikkaj\source\repos\4e_programy\listazadan2\obj\Debug\listazadan.csproj.SuggestedBindingRedirects.cache
+C:\Users\rosikkaj\source\repos\4e_programy\listazadan2\obj\Debug\listazadan.csproj.CoreCompileInputs.cache
+C:\Users\rosikkaj\source\repos\4e_programy\listazadan2\obj\Debug\listazadan2.exe
+C:\Users\rosikkaj\source\repos\4e_programy\listazadan2\obj\Debug\listazadan2.pdb
