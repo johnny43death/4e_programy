@@ -65,5 +65,20 @@ namespace listazadan
         {
             return _taskmanager.SingleOrDefault(x => x.ID == taskNo);
         }
+
+        public Task EditTask(int taskId, string newName, string newDescription)
+        {
+            Task taskToEdit = SelectTask(taskId);
+
+            taskToEdit.Name = newName;
+            taskToEdit.Description = newDescription;
+
+            return taskToEdit;
+        }
+
+        public void RemoveTask(int id)
+        {
+            _taskmanager.Remove(SelectTask(id));
+        }
     }
 }

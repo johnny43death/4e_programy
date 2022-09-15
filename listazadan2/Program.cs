@@ -67,9 +67,9 @@ namespace listazadan
             Console.Write("Nazwa: ");
             string name = Console.ReadLine();
             Console.Write("Opis zadania: ");
-            string opis = Console.ReadLine();
+            string desc = Console.ReadLine();
 
-            Task newTask = taskManager.CreateTask(name, opis);
+            Task newTask = taskManager.CreateTask(name, desc);
             Console.WriteLine("============");
             Console.WriteLine("Zadanie dodano pomyślnie! ");
             Console.WriteLine();
@@ -89,30 +89,27 @@ namespace listazadan
             Console.WriteLine("Wybierz akcję:");
             Console.WriteLine("1 - edytuj zadanie");
             Console.WriteLine("2 - dodaj do ukończonych");
-            Console.WriteLine("3 - cofnij");
+            Console.WriteLine("3 - usuń");
 
             int pressedkey = PressedKey();
-            if (pressedkey == 1)
+            switch (pressedkey)
             {
-                taskManager.SelectTask(taskID).IsFinished = false;
-
-                Console.Clear();
-                Console.WriteLine("Zadanie przywrócone");
+                case 1:
+                    Console.Clear();
+                    Console.WriteLine("Edytuj zadanie");
+                    EditTask(chosenTask);
+                    break;
+                case 2:
+                    Console.Clear();
+                    Console.WriteLine("Ukończono zadanie");
+                    chosenTask.IsFinished = true;
+                    break;
+                case 3:
+                    Console.Clear();
+                    Console.WriteLine("Usunięto zadanie");
+                    taskManager.RemoveTask(taskID);
+                    break;
             }
-            else if(pressedkey == 2)
-            {
-
-            }
-            else if (pressedkey == 3)
-            {
-                Console.Clear();
-                Console.WriteLine("LISTA ZADAŃ");
-                Console.WriteLine("===========");
-                taskManager.PrintAllTasks();
-                Console.WriteLine();
-                PrintMainMenu();
-            }
-
         }
 
         public static void PrintFinished()
@@ -143,6 +140,21 @@ namespace listazadan
                 Console.WriteLine();
                 PrintMainMenu();
             }
+        }
+
+        public static void EditTask(Task task)
+        {
+            task.Print();
+            Console.WriteLine();
+            Console.WriteLine("Edytowane zadanie:");
+            Console.Write("Nazwa: ");
+            string name = Console.ReadLine();
+            Console.Write("Opis: ");
+            string desc = Console.ReadLine();
+
+            Task editedTask = taskManager.EditTask(task.ID, name, desc);
+            Console.WriteLine("\nZadanie edytowane\n");
+            editedTask.Print();
         }
 
         public static void PrintMainMenu()

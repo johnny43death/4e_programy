@@ -8,7 +8,7 @@ namespace bank
 {
     abstract class Account
     {
-        public int ID { get; /*private set;*/ }
+        public int ID { get; /*private set;*/}
         // "get" sprawia, że zmienna jest tylko do odczytu
         public string AccountNumber { get; }
         public decimal Balance/*IAGA*/ { get; set; }
