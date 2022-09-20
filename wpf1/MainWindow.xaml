@@ -5,12 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:wpf1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="300" Width="600">
+        Title="MainWindow" Height="300" Width="300">
 
-    <!-- oto przykładowy formularzyk robiony na groupboxach-->
+    <!-- oto przykładowy formularzyk robiony na groupboxach
     <StackPanel>
         <GroupBox>
-            <GroupBox.Header> <!-- NAGŁÓWEK BYĆ MUSI -->
+            <GroupBox.Header> NAGŁÓWEK BYĆ MUSI 
                 Ile grasz dziennie na komputerze?
             </GroupBox.Header>
             <StackPanel>
@@ -20,7 +20,7 @@
                 <RadioButton>gram 24h/dobę</RadioButton>
             </StackPanel>
         </GroupBox>
-        <!-- jeśli nie masz wydzielonych obszarów na radioprzyciski, np. stackpanelami to nie możesz zaznaczać odpowiedzi w dwóch miejscach-->
+        jeśli nie masz wydzielonych obszarów na radioprzyciski, np. stackpanelami to nie możesz zaznaczać odpowiedzi w dwóch miejscach
         <GroupBox>
             <GroupBox.Header>
                 Ile grasz dziennie na komputerze?
@@ -33,13 +33,13 @@
             </StackPanel>
         </GroupBox>
         
-    </StackPanel>
+    </StackPanel>-->
     
     <!-- StackPanel sprawia że elementy są pod sobą -->
     <!-- WrapPanel sprawia że elementy są obok siebie, chyba że się nie mieszczą w linii -->
 
     <!-- ustawia ładnie przyciski w zależności od kolejności ich wystąpienia...
-    nie wiem jak to k*rwa wytłumaczyć, przetestuj sam
+    nie wiem jak to k*rwa wytłumaczyć, przetestuj sam, gringo
     <DockPanel>
         <Button DockPanel.Dock="Top">Top</Button>
         <Button DockPanel.Dock="Left">Left</Button>
@@ -125,5 +125,41 @@
 
     </Grid>
     -->
-    
+    <!-- "Binding ElementName" powoduje że napisane w jednym miejscu pojawia się w drugim -->
+    <!-- "oneway" powoduje że można pisać tylko w jedną stronę, "twoway" odwrotnie -->
+    <!--<StackPanel>
+        <TextBox x:Name="textBox" Text="kjaskd"/>
+        <TextBox x:Name="textBlock" 
+                   Text="{Binding ElementName=textBox, Path=Text, Mode=OneWay}"/>
+    </StackPanel>-->
+
+    <!-- odniesienia do metody w "MainWindow.xaml.cs" -->
+    <!--<StackPanel>
+        <TextBox x:Name="textBox"/>
+        <Button x:Name="button" Content="Zatwierdz" Click="btn_Click"/>
+        <TextBlock x:Name="textBlock" Text="czekam na klikniecie"/>
+        <Slider x:Name="slider" Minimum="20" Maximum="50" ValueChanged="slider_ValueChanged"/>
+        <WrapPanel>
+            <TextBlock Text="Wielkość czcionki: "/>
+            <TextBlock 
+                x:Name="wartosc"
+                Text="{Binding ElementName=slider, Path=Value}"/>
+        </WrapPanel>
+    </StackPanel>-->
+
+    <StackPanel Margin="20">
+        <TextBlock x:Name="textBlock" Text="Kto mieczem wojuje ten sam w nie wpada"/>
+        <WrapPanel>
+            <TextBlock Text="20"/>
+            <Slider x:Name="slider" Width="220" Minimum="20" Maximum="100" ValueChanged="slider_ValueChanged"/>
+            <TextBlock Text="100"/>
+        </WrapPanel>
+        <WrapPanel>
+            <Button Margin="5" x:Name="red"  Width="50" Height="25" Content="RED" Background="Red" Click="Red_Click"/>
+            <Button Margin="5" x:Name="green" Width="50" Height="25" Content="GREEN" Background="Green" Click="Green_Click"/>
+            <Button Margin="5" x:Name="blue" Width="50" Height="25" Content="BLUE" Background="Blue" Click="Blue_Click"/>
+            <Button Margin="5" x:Name="yellow" Width="50" Height="25" Content="YELLOW" Background="Yellow" Click="Yellow_Click"/>
+        </WrapPanel>
+    </StackPanel>
+
 </Window>

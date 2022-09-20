@@ -24,5 +24,41 @@ namespace wpf1
         {
             InitializeComponent();
         }
+
+        /*private void btn_Click(object sender, RoutedEventArgs e)
+        {
+            textBlock.Text = textBox.Text;
+        }*/
+
+        /*private void slider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            textBlock.FontSize = slider.Value;
+            wartosc.Text = String.Format("{0:F2}", e.NewValue);
+        }*/
+
+        private void slider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            textBlock.FontSize = slider.Value;
+        }
+
+        private void Red_Click(object sender, RoutedEventArgs e)
+        {
+            textBlock.Foreground = red.Background;
+        }
+
+        private void Green_Click(object sender, RoutedEventArgs e)
+        {
+            textBlock.Foreground = green.Background;
+        }
+
+        private void Blue_Click(object sender, RoutedEventArgs e)
+        {
+            textBlock.Foreground = blue.Background;
+        }
+
+        private void Yellow_Click(object sender, RoutedEventArgs e)
+        {
+            textBlock.Foreground = yellow.Background;
+        }
     }
 }
