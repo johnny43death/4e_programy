@@ -7,16 +7,16 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace kartkowka
-{
+{ 
     internal class Program
     {
-        
         static void Main(string[] args)
         {
-            for (int i=4; i<=16; i+=3)
+            int key;
+            do
             {
-                Console.WriteLine("{0");
-            }
+
+            } while (key != 0);
         }
     }
 }

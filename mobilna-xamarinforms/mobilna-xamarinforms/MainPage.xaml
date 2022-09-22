@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="mobilna_xamarinforms.MainPage">
+
+    <!--<Grid>
+        <Button HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Text="kliknij mie"
+                Clicked="Button_Clicked"/>
+    </Grid>-->
+
+    <!--<StackLayout>
+        <Label Text="Napis do obrocenia"
+               BindingContext="{x:Reference slider}"
+               Rotation="{Binding Value}"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+               FontSize="Large"
+               x:Name="rotatingLabel"/>
+         wiązanie bindingami (nieco inaczej niż w wpf) 
+        <Slider Maximum="360"
+                MinimumTrackColor="Green"
+                MaximumTrackColor="#ff0000"
+                ThumbColor="Yellow"
+                Margin="20"
+                x:Name="slider"/>
+         ValueChanged="Slider_ValueChanged" dajemy w sliderze, ale tylko jak piszemy to w sposób z wykorzystaniem pliku xaml.cs
+        <Label BindingContext="{x:Reference slider}"
+               Text="{Binding Value, StringFormat='Obrot wynosi {0:F0} stopni'}"
+               HorizontalOptions="Center"
+               x:Name="sliderValue"
+               FontSize="Large"/>
+    </StackLayout>-->
+
+    <StackLayout>
+        <Label Text="Kliknij 'NASTĘPNE', aby wyświetlić"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               FontSize="20"
+               Margin="20"
+               />
+        <Button
+               Text="Następne"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               Margin="10"/>
+        <Uniform Grid>
+            <Label Text="20"/>
+            <Slider
+                   Value="20"
+                   Maximum="50"
+                   HorizontalOptions="CenterAndExpand"/>
+            <Label Text="50"/>
+        </Uniform>
+
+    </StackLayout>
+
+</ContentPage>

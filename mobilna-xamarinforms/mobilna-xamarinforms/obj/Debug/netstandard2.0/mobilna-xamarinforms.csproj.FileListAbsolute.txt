@@ -1,0 +1,15 @@
+C:\Users\rosikkaj\source\repos\4e_programy\mobilna-xamarinforms\mobilna-xamarinforms\bin\Debug\netstandard2.0\mobilna-xamarinforms.deps.json
+C:\Users\rosikkaj\source\repos\4e_programy\mobilna-xamarinforms\mobilna-xamarinforms\bin\Debug\netstandard2.0\mobilna-xamarinforms.dll
+C:\Users\rosikkaj\source\repos\4e_programy\mobilna-xamarinforms\mobilna-xamarinforms\bin\Debug\netstandard2.0\mobilna-xamarinforms.pdb
+C:\Users\rosikkaj\source\repos\4e_programy\mobilna-xamarinforms\mobilna-xamarinforms\obj\Debug\netstandard2.0\mobilna-xamarinforms.csproj.AssemblyReference.cache
+C:\Users\rosikkaj\source\repos\4e_programy\mobilna-xamarinforms\mobilna-xamarinforms\obj\Debug\netstandard2.0\mobilna-xamarinforms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rosikkaj\source\repos\4e_programy\mobilna-xamarinforms\mobilna-xamarinforms\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\rosikkaj\source\repos\4e_programy\mobilna-xamarinforms\mobilna-xamarinforms\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\rosikkaj\source\repos\4e_programy\mobilna-xamarinforms\mobilna-xamarinforms\obj\Debug\netstandard2.0\mobilna-xamarinforms.AssemblyInfoInputs.cache
+C:\Users\rosikkaj\source\repos\4e_programy\mobilna-xamarinforms\mobilna-xamarinforms\obj\Debug\netstandard2.0\mobilna-xamarinforms.AssemblyInfo.cs
+C:\Users\rosikkaj\source\repos\4e_programy\mobilna-xamarinforms\mobilna-xamarinforms\obj\Debug\netstandard2.0\mobilna-xamarinforms.csproj.CoreCompileInputs.cache
+C:\Users\rosikkaj\source\repos\4e_programy\mobilna-xamarinforms\mobilna-xamarinforms\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\rosikkaj\source\repos\4e_programy\mobilna-xamarinforms\mobilna-xamarinforms\obj\Debug\netstandard2.0\mobilna-xamarinforms.dll
+C:\Users\rosikkaj\source\repos\4e_programy\mobilna-xamarinforms\mobilna-xamarinforms\obj\Debug\netstandard2.0\refint\mobilna-xamarinforms.dll
+C:\Users\rosikkaj\source\repos\4e_programy\mobilna-xamarinforms\mobilna-xamarinforms\obj\Debug\netstandard2.0\mobilna-xamarinforms.pdb
+C:\Users\rosikkaj\source\repos\4e_programy\mobilna-xamarinforms\mobilna-xamarinforms\obj\Debug\netstandard2.0\ref\mobilna-xamarinforms.dll
